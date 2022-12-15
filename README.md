@@ -24,7 +24,7 @@ After done with dataset splitting (train-test ratio = 80:20) and preprocessing (
 - Random Forest Classifier = used due to its characteristics (prone overfit algorithm, low bias, high variance) so it will fit for handling a dataset that having a large number of data points and relatively small amount of features
 - XGBoost Classfier = used due to its characteristics (prone overfit algorithm, low bias, high variance, tree-based) so it will fit for handling a dataset that having a large number of data points and relatively small amount of features
 
-## Model performance 
+## Model Performance 
 The random forest classifier model shown a very well performance compared with other models. The result scored by f1 metrics due to imbalanced data.
 - Logistic Regression f1 score = 0.78
 - Random Forest Classifier f1 score = 0.94

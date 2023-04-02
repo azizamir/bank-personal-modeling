@@ -15,8 +15,8 @@ After loaded the data, I needed to clean it up so that it was usable for the mac
 ## Exploratory Data Analysis
 Based on the exploratory data analysis results, it is shown that the target label data (Personal_Loan) is imbalanced, so it needs weighting and scored by f1 score metrics. I also plotted three features among several other features that influenced the customer's decision education level, income, and credit card spending cost average per month that are shown below. 
 
-<img src="https://github.com/azizamir/bank-personal-modeling/blob/main/results/binned%20income_loan.png" width="500" height="300" /> <img src="https://github.com/azizamir/bank-personal-modeling/blob/main/results/education_loan.png" width="300" height="300" /> 
-<img src="https://github.com/azizamir/bank-personal-modeling/blob/main/results/ccavg-income_loan.png" width="400" height="300" /> <img src="https://github.com/azizamir/bank-personal-modeling/blob/main/results/target.png" width="300" height="300" /> 
+<img src="https://github.com/azizamir/bank-personal-modeling/blob/main/results/binned-income-loan.png?raw=true" width="500" height="300" /> <img src="https://github.com/azizamir/bank-personal-modeling/blob/main/results/education-loan.png?raw=true" width="300" height="300" /> 
+<img src="https://github.com/azizamir/bank-personal-modeling/blob/main/results/ccavg-income-loan.png?raw=true" width="400" height="300" /> <img src="https://github.com/azizamir/bank-personal-modeling/blob/main/results/target.png" width="300" height="300" /> 
 
 ## Model Building
 After done with dataset splitting (train-test ratio = 80:20) and preprocessing (encode the categorical features), I started build the machine learning model using three algorithms
